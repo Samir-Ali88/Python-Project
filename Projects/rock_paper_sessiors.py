@@ -14,6 +14,6 @@ def play():
 def win(player,computer):
     if (player=="r" and computer =="s") or \
        (player=="s" and computer=="p") or \
-       (player=="p" or computer=="r" ):
+       (player=="p" and computer=="r" ):
         return True    
 print(play())   
